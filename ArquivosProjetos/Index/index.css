@@ -1,7 +1,11 @@
 body{
-    background-image: url(IndexBackground.jpg);
+    background-image: linear-gradient(to right,#ff9933,#994d00);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
 }
