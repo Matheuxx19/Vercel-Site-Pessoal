@@ -9,3 +9,16 @@ body{
 a{
     text-decoration: none;
 }
+a:visited{
+    color: #331a00;
+}
+a:link{
+    color: #331a00;
+}
+a:hover{
+    color: #4d2600;
+    text-decoration: underline;
+}
+a:active{
+    color: #000033;
+}
