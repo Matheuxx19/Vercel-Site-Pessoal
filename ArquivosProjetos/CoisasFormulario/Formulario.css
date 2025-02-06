@@ -8,3 +8,12 @@ h1, p{
 fieldset{
     border: none;
 }
+input{
+    border: 1px solid #99ff99;
+    background-color: #99ff99;
+    color: #000000;
+}
+label{
+    margin: 0.5rem 0;
+    display: block;
+}
