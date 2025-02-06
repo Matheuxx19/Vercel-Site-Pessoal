@@ -9,12 +9,37 @@
         <h1>Doação involuntária de orgãos</h1>
         <p>Tamer te encontrou comendo porco, ele precisa dos seus dados para criar uma lápide digna caso morra após a sua punição.</p>
         <form method="post" action="AviaozinhoDoTrafico3TenteiReviverMITAIA_EPrecisoAprenderSQLePHP.com">
-        <fieldset>
-            <label for="NomeCompleto">Nome completo para a lápide (Caso seja grande demais iremos corta-lo): <input id="NomeCompleto" type="text" required/></label>
-            <label for="Email">Email para mandar aos seus relativos: <input type="email" id="Email" required/></label>
-            <label for="SenhaEmail">Senha do email para mandar o email: <input type="password" id="SenhaEmail" required/></label>
-        </fieldset>
-        <input type="submit" value="Submit"/>
+            <fieldset>
+                <label for="NomeCompleto">Nome completo para a lápide (Caso seja grande demais iremos corta-lo): <input id="NomeCompleto" type="text" required/></label>
+                <label for="Email">Email para mandar aos seus relativos: <input type="email" id="Email" required/></label>
+                <label for="SenhaEmail">Senha do email para mandar o email: <input type="password" id="SenhaEmail" required/></label>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha o que será retirado como punição</legend>
+                <label for="Braços"><input class="inline" type="radio" id="Braços" name="QualMembro" checked />Braços</label>
+                <label for="Pernas"><input class="inline" type="radio" id="Pernas" name="QualMembro"/>Pernas</label>
+                <label for="Pulmão"><input class="inline" type="radio" id="Pulmão" name="QualMembro"/>Pulmão</label>
+                <label for="Rim"><input class="inline" type="radio" id="Rim" name="QualMembro"/>Rim</label>
+                <label for="Pâncreas"><input class="inline" type="radio" id="Pâncreas" name="QualMembro"/>Pâncreas</label>
+                <label for="Fimose"><input class="inline" type="radio" id="Fimose" name="QualMembro"/>Fimose</label>
+            </fieldset>
+            <fieldset>
+                <label for="pfp">Foto da lápide(opcional)(Não mande vírus): <input type="file" id="pfp"></label>
+                <label for="idade">Quantidade de anos vivo(idade): <input id="idade" type="number" max="100" min="4"></label>
+                <label for="corte">Qual objeto cortante você quer seja usado?
+                    <select id="corte">
+                      <option value="">Pedra Lascada</option>  
+                      <option value="1">Obsidiana Asteca</option>
+                      <option value="2">Serra Elétrica</option>
+                      <option value="3">125mm Sabot de descarte estabilizado por barbatana perfurante de armadura</option>
+                      <option value="4">Garfo e faca</option>
+                    </select>
+                </label>
+                <label for="UltimasPalavras">Ultimas palavras:
+                    <textarea id="UltimasPalavras" name="UltimasPalavras" row="5" cols="50" placeholder="Eu queria que garotas palhaço fossem uma raça real de pessoa..."></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Enviar(Vai dar erro por enquanto mas a url ja ta pronta)"/>
         </form>
     </body> 
 </html>
