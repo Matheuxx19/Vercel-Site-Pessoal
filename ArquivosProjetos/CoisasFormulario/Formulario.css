@@ -1,0 +1,10 @@
+body{
+    background-color: #133913;
+    color: #ffffff;
+}
+h1, p{
+   text-align: center;
+}
+fieldset{
+    border: none;
+}
