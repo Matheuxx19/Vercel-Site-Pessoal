@@ -3,6 +3,7 @@ body{
     color: #ffffff;
     width: 100%;
     height: 100vh;
+    padding-bottom: 150px;
 }
 
 input{
@@ -50,4 +51,16 @@ input[type="submit"]{
     font-size: 1rem;
     background-color: #001a0d;
     color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #00ff80;
+}
+a:link{
+    color: #00ff80;
+}
+a:hover{
+    color: #99ffbb;
 }
