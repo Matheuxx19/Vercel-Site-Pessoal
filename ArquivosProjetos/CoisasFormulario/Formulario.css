@@ -63,4 +63,5 @@ a:link{
 }
 a:hover{
     color: #99ffbb;
+    text-decoration: underline;
 }
